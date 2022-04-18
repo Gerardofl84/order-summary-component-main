@@ -18,7 +18,7 @@
 }
 
 body {
-  background-image: url(../../images/pattern-background-desktop.svg);
+  background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   max-width: 1440px;
   height: auto;
@@ -75,10 +75,11 @@ p {
 .items-3 {
   background-color: #eee;
   border-radius: 10px;
-  margin: 30px;
-  padding: 10px;
+  margin: 5px;
+  padding: 15px;
+  max-width: 375px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -96,8 +97,8 @@ p {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url(../../images/pattern-background-mobile.svg);
-    background-size: cover;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-size: contain;
   }
 }
 
