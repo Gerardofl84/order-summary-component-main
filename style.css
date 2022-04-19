@@ -19,7 +19,7 @@
 
 body {
   background-color: var(--pale_blue);
-  background-image: url("https://raw.githubusercontent.com/Gerardofl84/order-summary-component-main/abf3b77cc5252f436c2ef77918559e4ffdde92a6/images/pattern-background-desktop.svg");
+  background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   max-width: 1440px;
   height: auto;
@@ -98,7 +98,7 @@ p {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("https://raw.githubusercontent.com/Gerardofl84/order-summary-component-main/abf3b77cc5252f436c2ef77918559e4ffdde92a6/images/pattern-background-mobile.svg");
+    background-image: url(../images/pattern-background-mobile.svg);
     background-size: contain;
   }
 }
